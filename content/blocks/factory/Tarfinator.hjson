@@ -1,0 +1,50 @@
+{
+  type: GenericSmelter
+  name: "Tarfinator"
+  description: "Produces Tarfin Compounds"
+  research: {
+    parent: alloy-smelter
+    requirements: [
+      {
+        item: surge-alloy
+        amount: 15000
+      }
+      {
+        item: lead
+        amount: 5000
+      }
+      {
+        item: plastanium
+        amount: 10000
+      }
+      {
+        item: blast-compound
+        amount: 1000
+      }
+    ]
+  }
+  outputItem: Tarfin/1
+  size: 1
+  hasPower: true
+  craftTime: 30
+  health: 600
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 15.0
+  items: {
+    items: [
+      blast-compound/1
+      surge-alloy/1
+    ]
+  }
+  }
+  requirements: [
+    lead/300
+    copper/90
+    surge-alloy/1
+    blast-compound/1
+  ],
+  category: crafting
+  ambientSound: respawning
+  ambientSoundVolume: 0.5
+}

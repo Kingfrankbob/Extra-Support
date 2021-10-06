@@ -1,0 +1,55 @@
+{
+  type: GenericCrafter
+  name: "Compounce"
+  description: "Takes scrap and makes blast compound"
+  research: {
+    parent: Tarfinator
+    requirements: [
+      {
+        item: copper
+        amount: 5000
+      }
+      {
+        item: lead
+        amount: 5000
+      }
+      {
+        item: lead
+        amount: 1000
+      }
+      {
+        item: scrap
+        amount: 10000
+      }
+      {
+        item: Tarfin
+        amount: 5000
+      }
+    ]
+  }
+  outputItem: blast-compound/2
+  size: 2
+  hasPower: true
+  craftTime: 65
+  health: 600
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 5.0
+  liquid: water/1
+  items: {
+    items: [
+      scrap/10
+    ]
+  }
+  }
+  requirements: [
+    lead/30
+    copper/90
+    scrap/20
+    graphite/30
+    titanium/50
+  ],
+  category: crafting
+  ambientSound: respawning
+  ambientSoundVolume: 0.5
+}

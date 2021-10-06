@@ -1,0 +1,44 @@
+{
+  type: GenericSmelter
+  name: "Silicon Smelter Upgraded"
+  description: "Makes mass amounts of silicon"
+  research: {
+    parent: kiln
+    requirements: [
+      {
+        item: copper
+        amount: 5000
+      }
+      {
+        item: lead
+        amount: 5000
+      }
+    ]
+  }
+  outputItem: silicon/20
+  size: 2
+  hasPower: true
+  craftTime: 65
+  health: 600
+  updateEffect: smeltsmoke
+  consumes: {
+  power: 5.0
+  items: {
+    items: [
+      sand/5
+      coal/5
+      titanium/5
+    ]
+  }
+  }
+  requirements: [
+    lead/300
+    copper/90
+    silicon/2
+    graphite/300
+    titanium/50
+  ],
+  category: crafting
+  ambientSound: respawning
+  ambientSoundVolume: 0.5
+}

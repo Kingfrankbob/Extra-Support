@@ -1,0 +1,52 @@
+name: "Coal  Press"
+description: "Turns coal to oil"
+type: GenericCrafter
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+liquidCapacity: 440
+itemCapacity: 30
+craftTime: 60
+requirements: [
+  copper/200
+  lead/500
+  graphite/100
+  titanium/300
+  plastanium/60
+]
+consumes: {
+  power: 5.4
+    items: {
+      items: [
+      coal/1
+      ]
+   }
+}
+outputLiquid: oil/30
+category: crafting
+research: {
+    parent: spore-press
+    requirements: [
+      {
+        item: copper
+        amount: 5000
+      }
+      {
+        item: lead
+        amount: 3000
+      }
+      {
+        item: coal
+        amount: 10000
+      }
+      {
+        item: titanium
+        amount: 15000
+      }
+      {
+        item: plastanium
+        amount: 1000
+      }
+    ]
+  }
