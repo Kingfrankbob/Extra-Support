@@ -1,0 +1,8 @@
+{
+  name: "Tarfin"
+  description: "Expensive, Useful, Productive"
+  color: 475570
+  research: {
+    parent: surge-alloy
+  }
+}
