@@ -1,0 +1,272 @@
+{
+    type: ItemTurret
+    name: "Everyturret"
+    description: "Uses any item in the game as ammo!"
+    health: 1300
+    size: 3
+    range: 350
+    ammoUseEffect: casing3
+    reloadTime: 10
+    recoilAmount: 4.5
+    inaccuracy: 2
+    itemCapacity: 60
+    maxAmmo: 60
+    rotateSpeed: 8.0
+    ammoTypes: { 
+    copper: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        lead: {
+            speed: 5.0
+            damage: 30.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: 000000
+            backColor: 000000
+        }
+        sand: {
+            speed: 10.0
+            damage: 5.0
+            reloadMultiplier: 0.5
+            ammoMultiplier: 2
+            inaccuracy: 0.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 11
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        coal: {
+            speed: 6.0
+            damage: 30.0
+            trailEffect: burning
+            reloadMultiplier: 1.2
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+            status: burning
+
+        }
+        scrap: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        titanium: {
+            speed: 6.0
+            damage: 80.0
+            reloadMultiplier: 5.0
+            ammoMultiplier: 2
+            inaccuracy: 0.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        metaglass: {
+            speed: 99.0
+            damage: 10.0
+            reloadMultiplier: 0.01
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        graphite: {
+            speed: 5.0
+            lifetime: 40
+            damage: 60
+            fragBullets: 10
+            fragBullet: {
+                damage: 25
+                speed: 2.0
+                lifetime: 60
+            }
+            reloadMultiplier: 1.0
+            ammoMultiplier: 1
+            inaccuracy: 3.0
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: 8FADB7
+            backColor: 53646A
+        }
+        thorium: {
+            speed: 1.0
+            damage: 80.0
+            reloadMultiplier: 1.0
+            ammoMultiplier:10
+            inaccuracy: 0.25
+            lifetime: 88
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        silicon: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 200
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        plastanium: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 200
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        phase-fabric: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        surge-alloy: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        spore-pod: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        blast-compound: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        pyratite: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        }
+        Tarfin: {
+            speed: 6.0
+            damage: 25.0
+            reloadMultiplier: 1.0
+            ammoMultiplier: 2
+            inaccuracy: 5.0
+            lifetime: 33.3333
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
+            width: 7
+            height: 10
+            frontColor: AA8B32
+            backColor: 765D15
+        } 
+    }
+    coolantMultiplier: 1.0
+    requirements: [
+        Tarfin/80
+        copper/80
+        lead/80
+    ]
+    category: turret
+    research: hail
+}

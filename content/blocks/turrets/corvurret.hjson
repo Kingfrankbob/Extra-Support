@@ -1,0 +1,34 @@
+{
+	name: "Corvurret"
+	description: "-"
+	type: PowerTurret
+	health: 1200
+	size: 4
+	recoilAmount: 0
+	reloadTime: 10.0
+	shots: 5
+	shootSound: spark
+	shootCone: 15.0
+	shootCone: 15
+	range: 2000
+	chargeMaxDelay: 30
+	shootType: {
+		type: LightningBulletType
+		damage: 20
+		lightningLength: 80
+    collidesAir: true
+	}
+	powerUse: 18.0
+	inaccuracy: 20.0
+	rotateSpeed: 5.0
+	chargeEffects: 0.0
+	coolantMultiplier: 1.0
+	requirements: [
+		surge-alloy/120
+		lead/23
+		graphite/70
+		silicon/20
+	]
+	category: turret
+	research: duo
+}
