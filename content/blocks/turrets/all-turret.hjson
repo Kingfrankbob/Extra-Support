@@ -101,7 +101,7 @@
             backColor: 765D15
         }
         metaglass: {
-            speed: 99.0
+            speed: 50.0
             damage: 10.0
             reloadMultiplier: 0.01
             ammoMultiplier: 2
@@ -135,7 +135,7 @@
             backColor: 53646A
         }
         thorium: {
-            speed: 1.0
+            speed: 3.0
             damage: 80.0
             reloadMultiplier: 1.0
             ammoMultiplier:10
