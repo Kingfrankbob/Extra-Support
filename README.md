@@ -8,4 +8,4 @@ Redrew Silicon Smelter Upgraded
 Redrawing sprites
 
 # Notes
-Get some collabs, to help with the scripts
+Get some collabs, to help with the scripts AND spriting
