@@ -14,9 +14,9 @@
 	chargeMaxDelay: 30
 	shootType: {
 		type: LightningBulletType
-		damage: 20
+		damage: 25
 		lightningLength: 80
-    collidesAir: true
+    collidesAir: false
 	}
 	powerUse: 18.0
 	inaccuracy: 20.0
@@ -24,11 +24,11 @@
 	chargeEffects: 0.0
 	coolantMultiplier: 1.0
 	requirements: [
-		surge-alloy/120
-		lead/23
+		surge-alloy/160
+		lead/40
 		graphite/70
-		silicon/20
+		silicon/120
 	]
 	category: turret
-	research: duo
+	research: spectre
 }
