@@ -4,5 +4,6 @@
   description: "Mod by me B)))."
   author: "[#EEEFEF]MC_B)"
   version: 1.6.5
-  minGameVersion: 122.0
+  # minGameVersion: 122.0
+  minGameVersion: 126.0
 }
