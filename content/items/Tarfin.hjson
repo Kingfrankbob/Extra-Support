@@ -1,6 +1,8 @@
 {
   name: "Tarfin"
-  description: "Used in Expensive, but very useful turrets and machinery. Very expensive. "
+
+  description: "A very interesting and durable material but is quite expensive"
+
   color: 475570
   research: {
     parent: surge-alloy
