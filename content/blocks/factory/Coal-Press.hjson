@@ -1,6 +1,6 @@
 name: "Coal  Press"
 description: "Turns coal to oil"
-type: GenericPress
+type: GenericCrafter
 size: 2
 hasPower: true
 hasLiquids: true
