@@ -1,6 +1,6 @@
 # Extranilla-Mod
-Mod for mindustry, first one so spriting is horrid
-Redrew Silicon Smelter Upgraded
+Mod for mindustry, first one 
+Working on redrawing stuff
 
 
 
