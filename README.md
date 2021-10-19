@@ -11,8 +11,9 @@ Redrawing sprites
 Get some collabs, to help with the scripts AND spriting
 
 # Contributors 
+My Discord:kiຖງfrąŋƙცơც#4909
 
-Github Page                   Discord!
+Github Page-------------------Discord!
 
 https://github.com/uujuju1 (uujuju/Random-stuff#8068)
 
