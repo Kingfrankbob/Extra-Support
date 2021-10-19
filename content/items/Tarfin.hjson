@@ -2,7 +2,8 @@
   name: "Tarfin"
 
   description: "A very interesting and durable material but is quite expensive"
-
+  radioactivity: 1
+  flamability: 5
   color: 475570
   research: {
     parent: surge-alloy
