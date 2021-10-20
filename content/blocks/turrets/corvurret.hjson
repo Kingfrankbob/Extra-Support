@@ -27,7 +27,7 @@
 	  lightningDelay: 1.1
 	  lightningLengthRand: 20
 	  lightningDamage: 200
-	  lightningAngleRand: 40
+	  lightningAngleRand: 12
 	  largeHit: true
 	  colors: [0d0a78, 1410c2, fafaff]
 }
