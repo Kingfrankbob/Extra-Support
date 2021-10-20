@@ -19,14 +19,14 @@
 	  collidesAir: true
 	  damage: 560	
 	  length: 460
-	  width: 75
+	  width: 50
 	  lifetime: 85
 	  lightningSpacing: 35
 	  lightningLength: 8
 	  lightningDelay: 1.1
 	  lightningLengthRand: 20
 	  lightningDamage: 200
-	  lightningAngleRand: 12
+	  lightningAngleRand: 6
 	  largeHit: true
 	  colors: [0d0a78, 1410c2, fafaff]
 }
