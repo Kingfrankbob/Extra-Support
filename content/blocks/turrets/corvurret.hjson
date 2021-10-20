@@ -13,7 +13,6 @@
 	range: 200
 	chargeMaxDelay: 30
 	chargeTime: 80
-	chargeEffect: whiteLaserCharge
 	shootType: {
  	  type: LaserBulletType
  	  inaccuracy: 0
