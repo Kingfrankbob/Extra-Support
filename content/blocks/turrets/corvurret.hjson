@@ -7,21 +7,33 @@
 	recoilAmount: 0
 	reloadTime: 10.0
 	shots: 5
-	shootSound: spark
-	shootCone: 15.0
-	shootCone: 15
-	range: 2000
+	shootSound: laserblast
+	chargeSound: lasercharge
+	targetAir: True
+	range: 200
 	chargeMaxDelay: 30
+	chargeTime: 80
+	chargeEffect: greenLaserCharge
 	shootType: {
-		type: LightningBulletType
-		damage: 25
-		lightningLength: 80
-    collidesAir: false
-	}
+ 	  type: LaserBulletType
+ 	  inaccuracy: 0
+	  collidesAir: true
+	  damage: 560	
+	  length: 460
+	  width: 75
+	  lifetime: 85
+	  lightningSpacing: 35
+	  lightningLength: 8
+	  lightningDelay: 1.1
+	  lightningLengthRand: 20
+	  lightningDamage: 200
+	  lightningAngleRand: 40
+	  largeHit: true
+	  colors: [0d0a78, 1410c2, fafaff]
+}
 	powerUse: 18.0
-	inaccuracy: 20.0
-	rotateSpeed: 5.0
-	chargeEffects: 0.0
+	inaccuracy: 0.0
+	rotateSpeed: 3.0
 	coolantMultiplier: 1.0
 	requirements: [
 		surge-alloy/160
