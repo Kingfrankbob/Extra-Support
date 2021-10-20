@@ -101,7 +101,7 @@
             backColor: 765D15
         }
         metaglass: {
-            speed: 50.0
+            speed: 25.0
             damage: 10.0
             reloadMultiplier: 0.01
             ammoMultiplier: 2
