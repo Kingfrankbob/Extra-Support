@@ -21,7 +21,7 @@ omniMovement: true
 rotateShooting: false
 weapons: [
   {
-  name: "Healer
+  name: "Healer"
    shootSound: Sounds.lasershoot  
                 reload: 24 
                 x: 8  
