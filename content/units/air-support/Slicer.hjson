@@ -20,18 +20,19 @@ omniMovement: true
 rotateShooting: false
 weapons: [
   {
-   shootSound:  Sounds.lasershoot  
-                reload:  24 
-                x:  8  
-                y:  -6  
-                rotate:  true  
-                bullet: LaserBoltBulletType
-                {
-                    lifetime:  35
-                    healPercent:  12 
-                    collidesTeam:  true  
-                    backColor:  Pal.heal  
-                    frontColor:  Color.white  
+   shootSound: Sounds.lasershoot  
+                reload: 24 
+                x: 8  
+                y: -6  
+                rotate: true  
+                bullet: {
+                    type: LaserBoltBulletType
+                    lifetime: 35
+                    damage: 30
+                    healPercent: 12 
+                    collidesTeam: true  
+                    backColor: Pal.heal  
+                    frontColor: Color.white  
     }
     }
  
