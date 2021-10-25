@@ -1,0 +1,32 @@
+name: "Warp Speed Projektor"
+description: "Puts the whole map in overdrive. "
+type: OverdriveProjector
+size: 4
+health: 720
+range: 16400
+baseColor: 082145
+phaseColor: 1583D6
+speedBoost: 3.5
+speedBoostPhase: 2.4
+useTime: 360
+phaseRangeBoost: 22
+craftTime: 120
+consumes: {
+  power: 6.2
+  items: {
+    items: [
+    phase-fabric/5
+    surge-alloy/5
+  ]
+  booster: true
+  optional: true
+  }
+}
+requirements: [
+  lead/1000
+  silicon/3000
+  titanium/500 
+  Tarfin/20
+  ]
+research: overdrive-projector
+category: effect
