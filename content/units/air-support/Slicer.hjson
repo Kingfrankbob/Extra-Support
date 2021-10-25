@@ -1,4 +1,4 @@
-/*
+
 type: flying
 hitSize: 8
 health: 400
@@ -57,6 +57,6 @@ abilities: [
   }
 ]
 research: {
-  parent: Hestructor
+  parent: Crepartor
 }
-*/
+
