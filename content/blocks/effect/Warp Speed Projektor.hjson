@@ -3,7 +3,7 @@ description: "Puts the whole map in overdrive. "
 type: OverdriveProjector
 size: 4
 health: 720
-range: 2400
+range: 1760
 baseColor: 082145
 phaseColor: 1583D6
 speedBoost: 3.5
