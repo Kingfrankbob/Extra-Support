@@ -31,7 +31,7 @@ weapons: [
                     type: LaserBoltBulletType
                     lifetime: 120
                     damage: 30
-                    speed: 10
+                    speed: 5
                     healPercent: 12 
                     collidesTeam: true  
                     backColor: Pal.heal  
