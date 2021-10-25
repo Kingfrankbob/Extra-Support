@@ -12,7 +12,7 @@ drag: 0.5
 accel: 0.8
 rotateSpeed: 5.0
 buildSpeed: 6.0
-controller: BuilderAI
+controller: RepairAI
 lightRadius: 65
 lightColor: 7382f0
 engineOffset: 32
