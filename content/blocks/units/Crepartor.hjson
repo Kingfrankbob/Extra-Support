@@ -1,0 +1,23 @@
+type: UnitFactory
+size: 2
+consumes: {
+  power: 1.0
+}
+plans: [
+  {
+    unit: Slicer
+    time: 1000
+    requirements: [
+      lead/25
+      copper/25
+      sand/1
+    ]
+  }
+]
+requirements: [
+  lead/75
+  silicon/40
+  copper/100
+]
+research: air-factory
+category: units
