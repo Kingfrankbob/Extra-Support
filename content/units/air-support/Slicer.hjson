@@ -20,23 +20,18 @@ omniMovement: true
 rotateShooting: false
 weapons: [
   {
-    x: 0
-    shootY: 0
-    shootSound: none
-    mirror: false
-    shootCone: 360
-    reload: 320
-    firstShotDelay: 5
-    shootStatusDuration: 35
-    shake: 6
-     bullet: {
-      type: LaserBulletType
-      length: 210
-      width: 16
-      damage: 130
-      colors: [7382f040, 7382f0, ffffff]
-      collidesTeam: true
-      healPercent: 12
+   shootSound:  Sounds.lasershoot  
+                reload:  24 
+                x:  8  
+                y:  -6  
+                rotate:  true  
+                bullet: LaserBoltBulletType
+                {
+                    lifetime:  35
+                    healPercent:  12 
+                    collidesTeam:  true  
+                    backColor:  Pal.heal  
+                    frontColor:  Color.white  
     }
     }
  
@@ -45,4 +40,56 @@ weapons: [
 research: {
   parent: Crepartor
 }
+/*
+defaultController = RepairAI::new;
 
+            mineTier = 3
+            mineSpeed = 4
+            health = 460
+            armor = 3
+            speed = 2.5
+            accel = 0.06
+            drag = 0.017
+            lowAltitude = true
+            flying = true
+            engineOffset = 10.5
+            rotateShooting = false
+            hitSize = 16.05f
+            engineSize = 3
+            payloadCapacity = (2 * 2) * tilePayload;
+            buildSpeed = 2.6f;
+            isCounted = false;
+
+            ammoType = new PowerAmmoType(1100);
+
+            weapons.add(
+            new Weapon("heal-weapon-mount"){{
+                shootSound = Sounds.lasershoot;
+                reload = 24f;
+                x = 8f;
+                y = -6f;
+                rotate = true;
+                bullet = new LaserBoltBulletType(5.2f, 10){{
+                    lifetime = 35f;
+                    healPercent = 5.5f;
+                    collidesTeam = true;
+                    backColor = Pal.heal;
+                    frontColor = Color.white;
+                }};
+            }},
+            new Weapon("heal-weapon-mount"){{
+                shootSound = Sounds.lasershoot;
+                reload = 15f;
+                x = 4f;
+                y = 5f;
+                rotate = true;
+                bullet = new LaserBoltBulletType(5.2f, 8){{
+                    lifetime = 35f;
+                    healPercent = 3f;
+                    collidesTeam = true;
+                    backColor = Pal.heal;
+                    frontColor = Color.white;
+                }};
+            }});
+        }};
+        */
