@@ -1,4 +1,5 @@
-
+name: "Slicer"
+description: "Heals the base and is fine with building. Idk"
 type: flying
 hitSize: 8
 health: 400
@@ -6,20 +7,21 @@ armor: 20
 flying: true
 targetAir: true
 targetGround: true
-speed: 10.0
+speed: 5.0
 drag: 0.5
 accel: 0.8
-rotateSpeed: 4.1
-buildSpeed: 4.5
+rotateSpeed: 5.0
+buildSpeed: 6.0
 controller: BuilderAI
 lightRadius: 65
 lightColor: 7382f0
 engineOffset: 32
-engineSize: 5
+engineSize: 10
 omniMovement: true
 rotateShooting: false
 weapons: [
   {
+  name: "Healer
    shootSound: Sounds.lasershoot  
                 reload: 24 
                 x: 8  
@@ -27,8 +29,9 @@ weapons: [
                 rotate: true  
                 bullet: {
                     type: LaserBoltBulletType
-                    lifetime: 35
+                    lifetime: 120
                     damage: 30
+                    speed: 10
                     healPercent: 12 
                     collidesTeam: true  
                     backColor: Pal.heal  
