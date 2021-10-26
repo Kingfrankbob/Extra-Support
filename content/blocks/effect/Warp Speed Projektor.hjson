@@ -1,5 +1,5 @@
 name: "Warp Speed Projektor"
-description: "Puts the whole map in overdrive. "
+description: "Puts basically the whole map in overdrive, if provided with the correct resources "
 type: OverdriveProjector
 size: 4
 health: 720
