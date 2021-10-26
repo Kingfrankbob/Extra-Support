@@ -1,3 +1,5 @@
+name: "Crepartor"
+description: "Creates the support units etc."
 type: UnitFactory
 size: 2
 consumes: {
