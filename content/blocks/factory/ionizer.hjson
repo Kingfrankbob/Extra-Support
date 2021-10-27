@@ -52,7 +52,7 @@ drawer: {
       sizeTo: 3
       colorFrom: e65555
     }
-
+    ]
     }
     
   consumes: {
