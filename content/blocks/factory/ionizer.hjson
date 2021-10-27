@@ -40,7 +40,7 @@ drawer: {
   craftEffect: {
  type: explodeEffect
   lifetime: 90
-  clip: 5000
+  clip: 4000
   effects: [
     {
       type: reactorExplosion
