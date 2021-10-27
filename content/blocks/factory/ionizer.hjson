@@ -38,7 +38,8 @@ drawer: {
   health: 600
    
   craftEffect: impactReactorExplosion
-  /* {
+  /* 
+  {
   type: MultiEffect
   lifetime: 140
   clip: 1000
