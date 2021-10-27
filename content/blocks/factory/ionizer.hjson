@@ -1,5 +1,4 @@
 {
-explodeEffect = impactReactorExplosion
 name: "Ionizer"
 description: "ionizes hetite to refine it."
 drawer: {
