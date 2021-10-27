@@ -36,7 +36,23 @@ drawer: {
   hasPower: true
   craftTime: 65
   health: 600
-  updateEffect: smokeCloud
+   
+  updateEffect: {
+  type: MultiEffect
+  lifetime: 140
+  effects: [
+    {
+      type: ParticleEffect
+      lifetime: 140
+      length: -60
+      baseLength: 60
+      particles: 50
+      sizeFrom: 8
+      sizeTo: 8
+      colorFrom: ffffff
+    }
+    ]
+    }
   consumes: {
   power: 5.0
   liquid: water/1
