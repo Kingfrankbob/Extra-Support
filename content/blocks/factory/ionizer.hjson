@@ -42,7 +42,7 @@ drawer: {
   lifetime: 140
   effects: [
     {
-      type: nuclearExplosion
+      type: reactorExplosion
       lifetime: 90
       length: 60
       baseLength: 60
