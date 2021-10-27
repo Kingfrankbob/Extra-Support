@@ -40,13 +40,13 @@ drawer: {
   craftEffect: {
  type: MultiEffect
   lifetime: 90
-  clip: 1000
+  clip: -1000
   effects: [
     {
       type: ParticleEffect
       lifetime: 90
-      length: -100
-      baseLength: 100
+      length: 100
+      baseLength: -100
       particles: 25
       sizeFrom: 8
       sizeTo: 0
