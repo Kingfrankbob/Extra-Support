@@ -52,8 +52,8 @@ drawer: {
       sizeTo: 3
       colorFrom: e65555
     }
-    ]
-    }
+  ]
+}
     
   consumes: {
   power: 5.0
