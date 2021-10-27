@@ -38,12 +38,12 @@ drawer: {
   health: 600
    
   craftEffect: {
- type: MultiEffect
+ type: explodeEffect
   lifetime: 90
   clip: 5000
   effects: [
     {
-      type: ParticleEffect
+      type: reactorExplosion
       lifetime: 90
       length: 100
       baseLength: -100
