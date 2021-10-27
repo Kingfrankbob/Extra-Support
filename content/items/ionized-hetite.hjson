@@ -1,1 +1,6 @@
-
+name: "Ionized Hetite"
+description: "Used in support units and blocks, anything to help the base out."
+charge: 10.0
+research: {
+    parent: hetite
+  }
