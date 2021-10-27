@@ -42,7 +42,7 @@ drawer: {
   lifetime: 140
   effects: [
     {
-      type: blockExplosion
+      type: nuclearExplosion
       lifetime: 90
       length: 60
       baseLength: 60
@@ -50,7 +50,6 @@ drawer: {
       sizeFrom: 8
       sizeTo: 8
       colorFrom: ffffff
-      despawnEffect: blockExplosion
       
       
     }
