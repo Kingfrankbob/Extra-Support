@@ -45,7 +45,8 @@ drawer: {
     {
       type: impactReactorExplosion
     }
-   }
+   ]
+  }
   consumes: {
   power: 5.0
   liquid: water/1
