@@ -38,23 +38,23 @@ drawer: {
   health: 600
    
   craftEffect: {
- type: explodeEffect
+ type: MultiEffect
   lifetime: 90
   clip: 4096
   effects: [
     {
-        type: impactReactorExplosion
-        lifetime: 90
-        length: 100
-        baseLength: 100
-        particles: 25
-        sizeFrom: 100
-        sizeTo: 100
-        colorFrom: F3FFE5
+      type: ParticleEffect
+      lifetime: 140
+      length: 40
+      baseLength: -40
+      particles: 25
+      sizeFrom: 8
+      sizeTo: 0
+      colorFrom: F3FFE5
     }
   ]
 }
-    
+    F3FFE5
   consumes: {
   power: 5.0
   liquid: water/1
