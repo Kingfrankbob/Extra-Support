@@ -38,7 +38,7 @@ drawer: {
   craftTime: 100
   health: 600
    
-  craftEffect: explodeEffect
+  craftEffect: impactReactorExplosion
   consumes: {
   power: 5.0
   liquid: water/1
