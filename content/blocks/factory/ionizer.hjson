@@ -42,14 +42,16 @@ drawer: {
   lifetime: 140
   effects: [
     {
-      type: ParticleEffect
+      type: blockExplosion
       lifetime: 90
       length: 60
-      baseLength: -60
+      baseLength: 60
       particles: 25
       sizeFrom: 8
       sizeTo: 8
       colorFrom: ffffff
+      
+      
     }
     ]
     }
