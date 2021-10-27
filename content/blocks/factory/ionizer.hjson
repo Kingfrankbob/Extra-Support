@@ -38,19 +38,19 @@ drawer: {
   health: 600
    
   craftEffect: {
- type: explodeEffect
+ type: ParticleEffect
   lifetime: 90
   size: 8
   clip: 4000
   effects: [
     {
-      type: reactorExplosion
+      type: ParticleEffect
       lifetime: 90
       length: 100
       baseLength: -100
       particles: 25
-      sizeFrom: 80
-      sizeTo: 10
+      sizeFrom: 8
+      sizeTo: 0
       colorFrom: F3FFE5
     }
   ]
