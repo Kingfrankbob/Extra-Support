@@ -38,7 +38,7 @@ drawer: {
   health: 600
    
   craftEffect: {
- type: explode
+ type: explodeEffect
   lifetime: 90
   clip: 1000
   effects: [
