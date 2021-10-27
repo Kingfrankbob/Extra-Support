@@ -43,6 +43,8 @@ drawer: {
   clip: 1000
   effects: [
     {
+     type: explodeEffect
+       {
       type: impactReactorExplosion
       lifetime: 90
       length: 60
@@ -51,6 +53,7 @@ drawer: {
       sizeFrom: 8
       sizeTo: 8
       colorFrom: F3FFE5
+      }
     }
   ]
 }
