@@ -45,14 +45,14 @@ drawer: {
     {
      type: explodeEffect
        {
-      type: impactReactorExplosion
-      lifetime: 90
-      length: 60
-      baseLength: 60
-      particles: 25
-      sizeFrom: 8
-      sizeTo: 8
-      colorFrom: F3FFE5
+        type: impactReactorExplosion
+        lifetime: 90
+        length: 60
+        baseLength: 60
+        particles: 25
+        sizeFrom: 8
+        sizeTo: 8
+        colorFrom: F3FFE5
       }
     }
   ]
