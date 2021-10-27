@@ -54,7 +54,6 @@ drawer: {
     }
   ]
 }
-    F3FFE5
   consumes: {
   power: 5.0
   liquid: water/1
