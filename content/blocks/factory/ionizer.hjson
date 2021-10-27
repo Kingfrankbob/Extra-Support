@@ -37,13 +37,13 @@ drawer: {
   craftTime: 100
   health: 600
    
-  craftEffect: {
+  craftEffect: impactReactorExplosion/* {
   type: MultiEffect
   lifetime: 140
   clip: 1000
   effects: [
     {
-      type: reactorExplosion
+      type: impactReactorExplosion
       lifetime: 90
       length: 60
       baseLength: 60
@@ -56,6 +56,7 @@ drawer: {
     }
     ]
     }
+    */
   consumes: {
   power: 5.0
   liquid: water/1
