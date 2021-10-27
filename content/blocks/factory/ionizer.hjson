@@ -38,7 +38,20 @@ drawer: {
   health: 600
    
   craftEffect: {
-  type: impactReactorExplosion
+ type: explodeEffect
+  lifetime: 120
+  effects: [
+    {
+      type: impactReactorExplosion
+      lifetime: 120
+      length: -60
+      baseLength: 60
+      lifetime: 120
+      particles: 25
+      sizeFrom: 0
+      sizeTo: 3
+      colorFrom: e65555
+    }
 
     }
     
