@@ -46,7 +46,7 @@ drawer: {
       type: ParticleEffect
       lifetime: 90
       length: 60
-      baseLength: 60
+      baseLength: 0
       particles: 25
       sizeFrom: 8
       sizeTo: 0
