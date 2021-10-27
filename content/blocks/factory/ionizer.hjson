@@ -40,7 +40,7 @@ drawer: {
   craftEffect: {
  type: MultiEffect
   lifetime: 90
-  clip: -1000
+  clip: 5000
   effects: [
     {
       type: ParticleEffect
