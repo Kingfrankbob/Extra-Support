@@ -42,11 +42,11 @@ drawer: {
   lifetime: 140
   clip: 4096
   effects: [
-    {
+     {
       type: impactReactorExplosion
-    }
+     }
    ]
-  }
+}
   consumes: {
   power: 5.0
   liquid: water/1
