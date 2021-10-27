@@ -43,9 +43,9 @@ drawer: {
   clip: 4000
   effects: [
     {
-      type: ExplosionEffect
+      type: ParticleEffect
       lifetime: 90
-      length: -60
+      length: 60
       baseLength: 60
       particles: 25
       sizeFrom: 8
