@@ -1,4 +1,5 @@
 {
+explodeEffect = impactReactorExplosion
 name: "Ionizer"
 description: "ionizes hetite to refine it."
 drawer: {
@@ -37,24 +38,7 @@ drawer: {
   craftTime: 100
   health: 600
    
-  craftEffect: {
- type: ParticleEffect
-  lifetime: 90
-  size: 8
-  clip: 4000
-  effects: [
-    {
-      type: ParticleEffect
-      lifetime: 90
-      length: 100
-      baseLength: -100
-      particles: 25
-      sizeFrom: 8
-      sizeTo: 0
-      colorFrom: F3FFE5
-    }
-  ]
-}
+  craftEffect: explodeEffect
   consumes: {
   power: 5.0
   liquid: water/1
