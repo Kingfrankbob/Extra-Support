@@ -34,10 +34,10 @@ drawer: {
   outputItem: ionized-hetite/2
   size: 2
   hasPower: true
-  craftTime: 65
+  craftTime: 85
   health: 600
    
-  updateEffect: {
+  craftEffect: {
   type: MultiEffect
   lifetime: 140
   effects: [
