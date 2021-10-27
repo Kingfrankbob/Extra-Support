@@ -50,6 +50,7 @@ drawer: {
       sizeFrom: 8
       sizeTo: 8
       colorFrom: ffffff
+      despawnEffect: blockExplosion
       
       
     }
