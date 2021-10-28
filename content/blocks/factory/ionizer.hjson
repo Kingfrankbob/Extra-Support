@@ -71,7 +71,7 @@ drawer: {
     
     { 
       type: WaveEffect
-      lifetime: 5
+      lifetime: 10
       sizeFrom: 0
       sizeTo: 120
       strokeFrom: 0
