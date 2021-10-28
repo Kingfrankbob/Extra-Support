@@ -7,7 +7,7 @@ armor: 20
 flying: true
 targetAir: true
 targetGround: true
-speed: 5.0
+speed: 3.5
 drag: 0.5
 accel: 0.8
 rotateSpeed: 10.0
@@ -18,7 +18,7 @@ lightColor: 7382f0
 engineOffset: 10
 engineSize: 4
 omniMovement: true
-rotateShooting: false
+rotateShooting: true
 weapons: [
   {
   name: Healer
