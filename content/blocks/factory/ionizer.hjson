@@ -51,6 +51,7 @@ drawer: {
       strokeTo: 0
       colorFrom: ffdo6b
     }
+    delay: 90
     {
       type: ParticleEffect
       lifetime: 90
