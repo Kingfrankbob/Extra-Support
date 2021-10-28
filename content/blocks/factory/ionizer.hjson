@@ -34,7 +34,7 @@ drawer: {
   outputItem: ionized-hetite/2
   size: 2
   hasPower: true
-  craftTime: 100
+  craftTime: 120
   health: 600
    
   craftEffect: {
@@ -53,7 +53,7 @@ drawer: {
     }
     {
      type: ParticleEffect
-     lifetime: 90
+     lifetime: 80
      length: 120
      particles: 25
      sizeFrom: 8
@@ -62,7 +62,7 @@ drawer: {
    }
    {
      type: ParticleEffect
-     lifetime: 90
+     lifetime: 80
      length: 120
      particles: 25
      sizeFrom: 8
@@ -71,7 +71,7 @@ drawer: {
    }
     { 
       type: WaveEffect
-      lifetime: 90
+      lifetime: 60
       sizeFrom: 0
       sizeTo: 120
       strokeFrom: 0
