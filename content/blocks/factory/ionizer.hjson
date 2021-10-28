@@ -34,7 +34,7 @@ drawer: {
   outputItem: ionized-hetite/2
   size: 2
   hasPower: true
-  craftTime: 130
+  craftTime: 140
   health: 600
   craftEffect: {
   type: MultiEffect
@@ -43,7 +43,7 @@ drawer: {
   effects: [
     {
       type: ParticleEffect
-      lifetime: 110
+      lifetime: 130
       length: 150
       particles: 25
       sizeFrom: 10
@@ -51,6 +51,15 @@ drawer: {
       colorFrom: ffd06b
     }
     {
+     type: ParticleEffect
+     lifetime: 70
+     length: 150
+     particles: 25
+     sizeFrom: 10
+     sizeTo: 0
+     colorFrom: ffd06b
+   }
+   {
      type: ParticleEffect
      lifetime: 50
      length: 150
@@ -61,16 +70,7 @@ drawer: {
    }
    {
      type: ParticleEffect
-     lifetime: 30
-     length: 150
-     particles: 25
-     sizeFrom: 10
-     sizeTo: 0
-     colorFrom: ffd06b
-   }
-   {
-     type: ParticleEffect
-     lifetime: 90
+     lifetime: 110
      length: 150
      particles: 25
      sizeFrom: 10
@@ -80,7 +80,7 @@ drawer: {
     
     { 
       type: WaveEffect
-      lifetime: 10
+      lifetime: 5
       sizeFrom: 0
       sizeTo: 120
       strokeFrom: 0
@@ -90,7 +90,7 @@ drawer: {
     
     {
      type: ParticleEffect
-     lifetime: 70
+     lifetime: 90
      length: 150
      particles: 25
      sizeFrom: 10
