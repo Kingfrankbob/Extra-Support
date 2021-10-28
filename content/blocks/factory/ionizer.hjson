@@ -46,11 +46,37 @@ drawer: {
       type: ParticleEffect
       lifetime: 90
       length: 60
-      baseLength: 0
       particles: 25
       sizeFrom: 8
       sizeTo: 0
-      colorFrom: E6FFF5
+      colorFrom: ffd06b
+    }
+    {
+     type: ParticleEffect
+     lifetime: 90
+     length: 60
+     particles: 25
+     sizeFrom: 8
+     sizeTo: 0
+     colorFrom: ffd06b
+   }
+   {
+     type: ParticleEffect
+     lifetime: 90
+     length: 60
+     particles: 25
+     sizeFrom: 8
+     sizeTo: 0
+     colorFrom: ffd06b
+   }
+    { 
+      type: WaveEffect
+      lifetime: 90
+      sizeFrom: 0
+      sizeTo: 120
+      strokeFrom: 0
+      strokeTo: 4
+      colorFrom: ffdo6b
     }
    ]
  }
