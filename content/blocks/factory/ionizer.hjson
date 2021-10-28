@@ -42,6 +42,15 @@ drawer: {
   lifetime: 90
   clip: 4000
   effects: [
+  { 
+      type: WaveEffect
+      lifetime: 90
+      sizeFrom: 120
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: ffdo6b
+    }
     {
       type: ParticleEffect
       lifetime: 90
