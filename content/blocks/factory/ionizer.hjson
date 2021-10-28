@@ -52,7 +52,7 @@ drawer: {
     }
     {
      type: ParticleEffect
-     lifetime: 90
+     lifetime: 50
      length: 120
      particles: 25
      sizeFrom: 10
@@ -61,7 +61,16 @@ drawer: {
    }
    {
      type: ParticleEffect
-     lifetime: 100
+     lifetime: 30
+     length: 120
+     particles: 25
+     sizeFrom: 10
+     sizeTo: 0
+     colorFrom: ffd06b
+   }
+   {
+     type: ParticleEffect
+     lifetime: 10
      length: 120
      particles: 25
      sizeFrom: 10
