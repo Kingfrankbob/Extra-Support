@@ -70,14 +70,14 @@ drawer: {
    }
    {
      type: ParticleEffect
-     lifetime: 10
+     lifetime: 90
      length: 120
      particles: 25
      sizeFrom: 10
      sizeTo: 0
      colorFrom: ffd06b
    }
-    /*
+    
     { 
       type: WaveEffect
       lifetime: 10
@@ -87,7 +87,7 @@ drawer: {
       strokeTo: 2
       colorFrom: ffdo6b
     } 
-    */
+    
     {
      type: ParticleEffect
      lifetime: 70
