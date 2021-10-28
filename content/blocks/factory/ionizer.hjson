@@ -7,7 +7,7 @@ drawer: {
   type: GenericCrafter
 
   research: {
-    parent: Tarfinator
+    parent: kiln
     requirements: [
       {
         item: copper
