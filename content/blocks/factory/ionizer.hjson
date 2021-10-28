@@ -45,7 +45,7 @@ drawer: {
     {
       type: ParticleEffect
       lifetime: 90
-      length: 60
+      length: 120
       particles: 25
       sizeFrom: 8
       sizeTo: 0
@@ -54,7 +54,7 @@ drawer: {
     {
      type: ParticleEffect
      lifetime: 90
-     length: 60
+     length: 120
      particles: 25
      sizeFrom: 8
      sizeTo: 0
@@ -63,7 +63,7 @@ drawer: {
    {
      type: ParticleEffect
      lifetime: 90
-     length: 60
+     length: 120
      particles: 25
      sizeFrom: 8
      sizeTo: 0
@@ -75,7 +75,7 @@ drawer: {
       sizeFrom: 0
       sizeTo: 120
       strokeFrom: 0
-      strokeTo: 4
+      strokeTo: 2
       colorFrom: ffdo6b
     }
    ]
