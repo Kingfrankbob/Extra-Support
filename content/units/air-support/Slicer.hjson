@@ -34,8 +34,8 @@ weapons: [
                     speed: 5
                     healPercent: 12 
                     collidesTeam: true  
-                    backColor: Pal.heal  
-                    frontColor: Color.white  
+                    backColor: b8ffb8
+                    frontColor: d4ffd4  
     }
     }
 ]
