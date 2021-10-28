@@ -1,6 +1,8 @@
 name: "Slicer"
 description: "Heals the base and is fine with building. Idk"
 type: flying
+mineTier: 3
+mineSpeed: 5
 hitSize: 8
 health: 400
 armor: 20
@@ -16,7 +18,8 @@ controller: RepairAI
 lightRadius: 65
 lightColor: 7382f0
 engineOffset: 10
-engineSize: 4
+engineSize: 3
+payloadCapacity: 3
 omniMovement: true
 rotateShooting: true
 weapons: [
