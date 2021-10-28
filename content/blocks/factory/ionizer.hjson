@@ -88,15 +88,6 @@ drawer: {
      sizeTo: 0
      colorFrom: ffd06b
    }
-   {
-     type: ParticleEffect
-     lifetime: 90
-     length: 120
-     particles: 25
-     sizeFrom: 10
-     sizeTo: 0
-     colorFrom: ffd06b
-   }
    ]
  }
   consumes: {
