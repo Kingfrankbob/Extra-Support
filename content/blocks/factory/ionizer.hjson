@@ -83,8 +83,8 @@ drawer: {
       lifetime: 5
       sizeFrom: 0
       sizeTo: 120
-      strokeFrom: 0
-      strokeTo: 2
+      strokeFrom: 2
+      strokeTo: 0
       colorFrom: ffdo6b
     } 
     
