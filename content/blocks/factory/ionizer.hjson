@@ -36,12 +36,27 @@ drawer: {
   hasPower: true
   craftTime: 120
   health: 600
-   
+   updateEffect: {
+   type: Multieffect
+   clip: 4000
+   effects: [
+   { 
+      type: WaveEffect
+      lifetime: 90
+      sizeFrom: 120
+      sizeTo: 0
+      strokeFrom: 4
+      strokeTo: 0
+      colorFrom: ffdo6b
+     }
+   ]
+ }  
   craftEffect: {
   type: MultiEffect
   lifetime: 90
   clip: 4000
   effects: [
+  /*
   { 
       type: WaveEffect
       lifetime: 90
@@ -51,12 +66,13 @@ drawer: {
       strokeTo: 0
       colorFrom: ffdo6b
      }
+     */
     {
       type: ParticleEffect
       lifetime: 90
       length: 120
       particles: 25
-      sizeFrom: 8
+      sizeFrom: 10
       sizeTo: 0
       colorFrom: ffd06b
     }
@@ -65,7 +81,7 @@ drawer: {
      lifetime: 80
      length: 120
      particles: 25
-     sizeFrom: 8
+     sizeFrom: 10
      sizeTo: 0
      colorFrom: ffd06b
    }
@@ -74,7 +90,7 @@ drawer: {
      lifetime: 100
      length: 120
      particles: 25
-     sizeFrom: 8
+     sizeFrom: 10
      sizeTo: 0
      colorFrom: ffd06b
    }
@@ -94,7 +110,7 @@ drawer: {
      lifetime: 70
      length: 120
      particles: 25
-     sizeFrom: 8
+     sizeFrom: 10
      sizeTo: 0
      colorFrom: ffd06b
    }
@@ -103,7 +119,7 @@ drawer: {
      lifetime: 90
      length: 120
      particles: 25
-     sizeFrom: 8
+     sizeFrom: 10
      sizeTo: 0
      colorFrom: ffd06b
    }
