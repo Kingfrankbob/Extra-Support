@@ -1,6 +1,6 @@
 {
 name: "Ionizer"
-description: "ionizes hetite to refine it. Releases massive amounts of energy."
+description: "ionizes hetite to refine it. Releases massive amounts of energy, like when an impact reactor explodes. "
 /*
 drawer: {
     type: drawAnimation
