@@ -13,6 +13,20 @@
 	range: 200
 	chargeMaxDelay: 30
 	chargeTime: 80
+	chargeEffect: {
+	type: MultiEffect
+	lifetime: 100
+	clip: 4000
+	{
+      type: WaveEffect
+      lifetime: 100
+      sizeFrom: 58
+      sizeTo: 0
+      strokeFrom: 6
+      strokeTo: 0
+      colorFrom: 57e891
+    }
+    }
 	shootType: {
  	  type: LaserBulletType
  	  inaccuracy: 0
@@ -28,7 +42,7 @@
 	  lightningDamage: 200
 	  lightningAngleRand: 6
 	  largeHit: true
-	  colors: [0d0a78, 1410c2, fafaff]
+	  colors: [57e891, b1ffb0, fafaff]
 }
 	powerUse: 18.0
 	inaccuracy: 0.0
