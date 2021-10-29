@@ -1,6 +1,6 @@
 {
 name: "Ionizer"
-description: "ionizes hetite to refine it."
+description: "ionizes hetite to refine it. Releases massive amounts of energy."
 drawer: {
     type: drawAnimation
     }
@@ -31,7 +31,7 @@ drawer: {
       }
     ]
   }
-  outputItem: ionized-hetite/2
+  outputItem: ionized-hetite/4
   size: 2
   hasPower: true
   craftTime: 140
