@@ -12,7 +12,7 @@
 	targetAir: True
 	range: 200
 	chargeMaxDelay: 30
-	chargeTime: 100
+	chargeTime: 110
 	chargeEffect: {
 	type: MultiEffect
 	lifetime: 100
