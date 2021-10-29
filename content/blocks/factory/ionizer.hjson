@@ -1,10 +1,12 @@
 {
 name: "Ionizer"
 description: "ionizes hetite to refine it. Releases massive amounts of energy."
+/*
 drawer: {
     type: drawAnimation
     }
-  type: GenericCrafter
+*/
+type: GenericCrafter
 
   research: {
     parent: kiln
