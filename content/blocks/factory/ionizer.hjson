@@ -31,7 +31,7 @@ drawer: {
       }
     ]
   }
-  outputItem: ionized-hetite/4
+  outputItem: ionized-hetite/3
   size: 2
   hasPower: true
   craftTime: 140
@@ -101,10 +101,9 @@ drawer: {
  }
   consumes: {
   power: 5.0
-  liquid: water/1
   items: {
     items: [
-      scrap/10
+      hetite/4
     ]
   }
   }
