@@ -17,15 +17,17 @@
 	type: MultiEffect
 	lifetime: 100
 	clip: 4000
+	effects: [
 	{
-      type: WaveEffect
-      lifetime: 100
-      sizeFrom: 58
-      sizeTo: 0
-      strokeFrom: 6
-      strokeTo: 0
-      colorFrom: 57e891
-    }
+        type: WaveEffect
+        lifetime: 100
+        sizeFrom: 58
+        sizeTo: 0
+        strokeFrom: 6
+        strokeTo: 0
+        colorFrom: 57e891
+       }
+      ]
     }
 	shootType: {
  	  type: LaserBulletType
