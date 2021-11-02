@@ -17,7 +17,7 @@ buildSpeed: 6.0
 controller: RepairAI
 lightRadius: 65
 lightColor: 7382f0
-engineOffset: 8
+engineOffset: 7
 engineSize: 2
 payloadCapacity: 3
 omniMovement: true
