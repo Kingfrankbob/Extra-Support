@@ -110,11 +110,11 @@ type: GenericCrafter
   }
   }
   requirements: [
-    lead/30
-    copper/90
-    scrap/20
-    graphite/30
-    titanium/50
+    lead/100
+    copper/100
+    graphite/50
+    hetite/100
+    
   ],
   category: crafting
   ambientSound: respawning
