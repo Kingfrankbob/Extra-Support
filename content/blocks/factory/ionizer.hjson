@@ -24,11 +24,11 @@ type: GenericCrafter
         amount: 1000
       }
       {
-        item: scrap
+        item: titanium
         amount: 10000
       }
       {
-        item: Tarfin
+        item: hetite
         amount: 5000
       }
     ]
