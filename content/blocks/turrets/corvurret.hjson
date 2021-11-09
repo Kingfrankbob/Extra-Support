@@ -1,10 +1,7 @@
 {
 	name: "Corvurret"
 	description: "Amazing, based off of the Corvus?"
-	drawer: {
-                  type: drawAnimation
-                }
-	type: PowerTurret
+	type: LaserTurret
 	health: 1200
 	size: 4
 	recoilAmount: 0
