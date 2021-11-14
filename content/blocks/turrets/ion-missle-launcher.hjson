@@ -2,7 +2,7 @@ name: "Ion Missle Launcher"
 description: "Shoots Ion Missles"
 type: PayloadTurret
     ammoTypes: { 
-    dagger: {
+    router: {
             speed: 6.0
             damage: 25.0
             reloadMultiplier: 1.0
