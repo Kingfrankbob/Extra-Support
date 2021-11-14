@@ -1,20 +1,11 @@
 name: "Ion Missle Launcher"
 description: "Shoots Ion Missles"
 type: PayloadTurret
+outputsPayload: true
     ammoTypes: { 
     router: {
             speed: 6.0
             damage: 25.0
-            reloadMultiplier: 1.0
-            ammoMultiplier: 2
-            inaccuracy: 5.0
-            lifetime: 33.3333
-            shootEffect: shootBig
-            smokeEffect: shootBigSmoke
-            width: 7
-            height: 10
-            frontColor: AA8B32
-            backColor: 765D15
         }
         }
         health: 1300
