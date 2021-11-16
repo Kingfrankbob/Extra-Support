@@ -22,3 +22,6 @@ https://github.com/Br0ad (Ɓroad#0648)
 *PAYLOAD TURRETS AND BULLET CODES ARE NOT MINE*
 *USED FROM BETAMINDY*
 https://github.com/sk7725/BetaMindy (*Dont know discord!*)
+
+*Template REPO*
+https://github.com/Sonnicon/mindustry-modtemplate
