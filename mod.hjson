@@ -1,12 +1,23 @@
-{
-  name: "Extra Supoort",
-  "displayName": "ExtraSupport",
-  "author": "[#36E5AB[]]MC B)[[]]",
-  "description": "First java :O",
-  "version": "0.1",
-  "main": "extrasupport.extrasupport.ExtraSupport",
-  "minGameVersion": "125",
-  "dependencies": [],
-  "hidden": false,
-  "java": true
-}
+#the mod name as displayed in-game
+displayName: "[green]Extra [white]Support"
+
+#the internal name of your mod
+name: "extrasupport"
+
+#your name
+author: "MC B)"
+
+#the fully qualified main class of the mod
+main: "extrasupport.extrasupport"
+
+#the mod description as seen in the mod dialog
+description: "bruh"
+
+#the mod version
+version: 1.0
+
+#the minimum game build required to run this mod
+minGameVersion: 126
+
+#this is a java mod
+java: true
