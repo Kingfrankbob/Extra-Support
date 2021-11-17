@@ -1,7 +1,0 @@
-hardness: 3
-cost: 1.0
-charge: 8
-color: 3e9f64
-research: { 
-   parent: thorium
-   }
