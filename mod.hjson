@@ -1,0 +1,12 @@
+{
+  name: "Extra Supoort",
+  "displayName": "ExtraSupport",
+  "author": "[#36E5AB[]]MC B)[[]]",
+  "description": "First java :O",
+  "version": "0.1",
+  "main": "extrasupport.extrasupport.ExtraSupport",
+  "minGameVersion": "125",
+  "dependencies": [],
+  "hidden": false,
+  "java": true
+}
