@@ -5,6 +5,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ] 
+  workflow_dispatch: 
 
 jobs:
   build:
@@ -33,5 +34,5 @@ jobs:
     - name: Upload build artifact
       uses: actions/upload-artifact@v2.2.1
       with:
-        name: dexed
-        path: build/libs/dexed-*.jar
+        name: SupportMod
+        path: build/libs/[!raw]*.jar
