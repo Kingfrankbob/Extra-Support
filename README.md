@@ -1,4 +1,4 @@
-# Extranilla-Mod
+# Extranilla-Mod DEAD UNTIL I FINISH A BETA~~
 Mod for mindustry, first one 
 Working on redrawing stuff
 
